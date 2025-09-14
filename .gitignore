@@ -1,0 +1,19 @@
+# Конфиденциальные данные
+*.env
+.env*
+configs/.env
+
+# Данные приложений
+/opt/whisper-app-data/
+/opt/shared/
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+tmp/
+temp/
+
+# Docker volumes
+docker-data/
